@@ -20,9 +20,9 @@ Employee ID: CAPG48LSRB327.
 	Exception Handling and finalize is the method of object class.
 
 4.What are maker Interfaces.
-A marker interface is also called a tagging interface.A marker interface is an interface that has no methods or constants inside it.
-It provides run-time type information about objects, so the compiler and JVM have additional information about the object.	
-All these interfaces are empty interfaces. 
+	A marker interface is also called a tagging interface.A marker interface is an interface that has no methods or constants inside it.
+	It provides run-time type information about objects, so the compiler and JVM have additional information about the object.	
+	All these interfaces are empty interfaces. 
 	1.Cloneable interface
 	2.Serializable interface
 	3.Remote interface
@@ -57,7 +57,6 @@ All these interfaces are empty interfaces.
 10.What are optional classes in Java 8
 	Optional is a container object used to contain not-null objects. Optional object is used to represent null with absent value. 
 	This class has various utility methods to facilitate code to handle values as ‘available’ or ‘not available’ instead of checking null values. 
-
 
 11.Whats is factory design pattern and Adapter and difference bew them	
 	A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses
@@ -94,32 +93,27 @@ All these interfaces are empty interfaces.
 	Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed. 
 	It is a data structure technique which is used to quickly locate and access the data in a database
 
-
 16. What are 4 types of Drivers in Jdbc
-Ans There are 4 types of JDBC drivers:
-JDBC-ODBC bridge driver
-Native-API driver
-Network Protocol driver
-Thin driver
-
+	There are 4 types of JDBC drivers:
+	JDBC-ODBC bridge driver
+	Native-API driver
+	Network Protocol driver
+	Thin driver
 
 17. What is difrence bew @component and @bean and @service
-Ans The difference is that @Bean is applicable to methods, whereas @Component is applicable to types.
-@Component is a generic stereotype for any Spring-managed component. @Service annotates classes at the service layer.
-
+	The difference is that @Bean is applicable to methods, whereas @Component is applicable to types.
+	@Component is a generic stereotype for any Spring-managed component. @Service annotates classes at the service layer.
 
 18. What is difference bew SOAP and restful services techinically
-Ans The main difference is that SOAP is a protocol while REST is not. Typically, an API will adhere to either REST or SOAP,
-depending on the use case and preferences of the developer.
-
+	The main difference is that SOAP is a protocol while REST is not. Typically, an API will adhere to either REST or SOAP,
+	depending on the use case and preferences of the developer.
 
 19. Difference in POST and PUT
-Ans The difference between POST and PUT is that PUT requests are idempotent. That is, calling the same PUT request multiple
-times will always produce the same result. In contrast, calling a POST request repeatedly have side effects of creating
-the same resource multiple times.
-
+	The difference between POST and PUT is that PUT requests are idempotent. That is, calling the same PUT request multiple
+	times will always produce the same result. In contrast, calling a POST request repeatedly have side effects of creating
+	the same resource multiple times.
 
 20. is react uni directional or Bi directional
-Ans React, a Javascript library, uses unidirectional data flow. The data from the parent is known as props. You can only transfer
-data from parent to child and not vice versa. This means that the child components cannot update or modify the data on their
-own, makeing sure that a clean data flow architecture is followed.
+	React, a Javascript library, uses unidirectional data flow. The data from the parent is known as props. You can only transfer
+	data from parent to child and not vice versa. This means that the child components cannot update or modify the data on their
+	own, makeing sure that a clean data flow architecture is followed.
